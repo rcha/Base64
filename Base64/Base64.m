@@ -174,7 +174,7 @@
     {
         return [[self alloc] initWithData:data encoding:NSUTF8StringEncoding];
     }
-    return nil;
+    return @""; 
 }
 
 - (NSString *)base64EncodedStringWithWrapWidth:(NSUInteger)wrapWidth
